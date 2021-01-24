@@ -11,6 +11,8 @@ import {
 } from '@nestjs/common';
 import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
 import { AppService } from './app.service';
+import { diskStorage } from 'multer';
+import {editFileName} from "./nombre-archivo";
 
 @Controller()
 export class AppController {
@@ -28,15 +30,20 @@ export class AppController {
   // }
 
   @Post('subir-imagen')
-  @UseInterceptors(FileInterceptor('archivo'))
+  @UseInterceptors(
+    FileInterceptor('archivo', {
+      storage: diskStorage({
+        destination: './upload',
+        filename: editFileName,
+      }),
+    }),
+  )
   async subirImagenes(
     @UploadedFile() archivo,
     // @Body('idImagen') idImagen
-    @Req() req
-    ) {
-      console.log(req.files);
-      //console.log(Object.keys(req.body));
-      console.log(archivo);
+  ) {
+    //console.log(Object.keys(req.body));
+    console.log(archivo);
     try {
       // console.log(archivo);
       return { archivo };

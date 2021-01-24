@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82a0a1d6-de02-4a2d-97a3-14bc6e14a203" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ejemplo-multer/src/nombre-archivo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejemplo-multer/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ejemplo-multer/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejemplo-multer/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ejemplo-multer/src/app.module.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nWwFdn6pvLx7DHUmFGyzHX6x69" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ejemplo-multer/node_modules/typescript/lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82a0a1d6-de02-4a2d-97a3-14bc6e14a203" name="Default Changelist" comment="" />
+      <created>1611519051533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611519051533</updated>
+      <workItem from="1611519053058" duration="1278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1059" y="344" width="784" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611519909128">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1059" y="344" width="784" height="416" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1611519909128" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ejemplo-multer/src/nombre-archivo.ts</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
